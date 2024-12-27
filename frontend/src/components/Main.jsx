@@ -11,14 +11,17 @@ function Main() {
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-neutral-content text-center">
-        <div className="max-w-md">
-          <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-          <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
+      <img
+      src="https://tarbarrel.com.au/wp-content/uploads/2022/10/closeup-barista-holding-glass-craft-beer-bar.jpg"
+      class="max-w-sm rounded-lg shadow-2xl" />
+        <div className="max-w-md ">
+          <div className="divider divider-primary text-5xl font-bold text-primary">Sörfőzde</div>
+          <p className="m-5 text-primary bg-neutral bg-opacity-70">
+          A sörfőzdék világszerte széles választékot kínálnak sörstílusokból, a hagyományosoktól a modernekig, 
+          egyre nagyobb hangsúlyt fektetve a kézműves sörfőzésre, fenntarthatóságra és innovációra.
+            Az oldalon szereplő országok sörfőzdéi összességében egy változatos és fejlődő globális sörpiacot képviselnek.
           </p>
-          <button className="btn btn-primary">Get Started</button>
+          <div className="divider divider-primary text-5xl font-bold text-secondary"></div>
         </div>
       </div>
     </div>
